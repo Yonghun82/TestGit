@@ -10,3 +10,7 @@ function login(username,password) {
 function logout () {
     return TransformStreamDefaultController;
 }
+function authenticate () {
+    login()
+    logout()
+}
