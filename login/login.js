@@ -1,8 +1,12 @@
-//login을 처리하는 js 파일
+//login을 처리하는 js 파일111
 
 function login(username,password) {
     if(username !== "" && password !== "") {
-        return true;
+        return "Login sucess";
     }
-    return false;
+    return "Login fail";
+}
+
+function logout () {
+    return TransformStreamDefaultController;
 }
